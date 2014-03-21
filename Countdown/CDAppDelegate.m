@@ -7,12 +7,22 @@
 //
 
 #import "CDAppDelegate.h"
+#import "CDSettingsViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation CDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[CDSettingsViewController alloc] initWithNibName:@"CDSettingsViewController" bundle:nil];
+    [self.window makeKeyAndVisible];
+    
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [[AVAudioSession sharedInstance] setActive:YES error:nil];
+    
     return YES;
 }
 							
