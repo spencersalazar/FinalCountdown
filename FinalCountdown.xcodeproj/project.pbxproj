@@ -24,14 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09AC9D7718DA443600FC6BEB /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AC9D7718DA443600FC6BEB /* FinalCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09AC9D7A18DA443600FC6BEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09AC9D7C18DA443600FC6BEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		09AC9D7E18DA443600FC6BEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		09AC9D8218DA443600FC6BEB /* Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Countdown-Info.plist"; sourceTree = "<group>"; };
+		09AC9D8218DA443600FC6BEB /* FinalCountdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalCountdown-Info.plist"; sourceTree = "<group>"; };
 		09AC9D8418DA443600FC6BEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09AC9D8618DA443600FC6BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09AC9D8818DA443600FC6BEB /* Countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Countdown-Prefix.pch"; sourceTree = "<group>"; };
+		09AC9D8818DA443600FC6BEB /* FinalCountdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalCountdown-Prefix.pch"; sourceTree = "<group>"; };
 		09AC9D8918DA443600FC6BEB /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
 		09AC9D8A18DA443600FC6BEB /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
 		09AC9D9218DA443600FC6BEB /* CDCountdownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCountdownViewController.h; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		09AC9D7818DA443600FC6BEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09AC9D7718DA443600FC6BEB /* Countdown.app */,
+				09AC9D7718DA443600FC6BEB /* FinalCountdown.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +106,8 @@
 				09AC9D9518DA443600FC6BEB /* Images.xcassets */,
 				09AC9D8118DA443600FC6BEB /* Supporting Files */,
 			);
-			path = Countdown;
+			name = Countdown;
+			path = FinalCountdown;
 			sourceTree = "<group>";
 		};
 		09AC9D8118DA443600FC6BEB /* Supporting Files */ = {
@@ -114,10 +115,10 @@
 			children = (
 				09AC9DC018DBC2B300FC6BEB /* Comic Sans MS.ttf */,
 				09AC9DBC18DA5CB200FC6BEB /* finalcountdown.mp3 */,
-				09AC9D8218DA443600FC6BEB /* Countdown-Info.plist */,
+				09AC9D8218DA443600FC6BEB /* FinalCountdown-Info.plist */,
 				09AC9D8318DA443600FC6BEB /* InfoPlist.strings */,
 				09AC9D8618DA443600FC6BEB /* main.m */,
-				09AC9D8818DA443600FC6BEB /* Countdown-Prefix.pch */,
+				09AC9D8818DA443600FC6BEB /* FinalCountdown-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09AC9D7618DA443600FC6BEB /* Countdown */ = {
+		09AC9D7618DA443600FC6BEB /* FinalCountdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09AC9DAC18DA443600FC6BEB /* Build configuration list for PBXNativeTarget "Countdown" */;
+			buildConfigurationList = 09AC9DAC18DA443600FC6BEB /* Build configuration list for PBXNativeTarget "FinalCountdown" */;
 			buildPhases = (
 				09AC9D7318DA443600FC6BEB /* Sources */,
 				09AC9D7418DA443600FC6BEB /* Frameworks */,
@@ -137,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Countdown;
+			name = FinalCountdown;
 			productName = Countdown;
-			productReference = 09AC9D7718DA443600FC6BEB /* Countdown.app */;
+			productReference = 09AC9D7718DA443600FC6BEB /* FinalCountdown.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09AC9D7218DA443600FC6BEB /* Build configuration list for PBXProject "Countdown" */;
+			buildConfigurationList = 09AC9D7218DA443600FC6BEB /* Build configuration list for PBXProject "FinalCountdown" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -170,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09AC9D7618DA443600FC6BEB /* Countdown */,
+				09AC9D7618DA443600FC6BEB /* FinalCountdown */,
 			);
 		};
 /* End PBXProject section */
@@ -298,10 +299,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
-				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				GCC_PREFIX_HEADER = "FinalCountdown/FinalCountdown-Prefix.pch";
+				INFOPLIST_FILE = "FinalCountdown/FinalCountdown-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FinalCountdown;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -315,10 +316,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
-				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				GCC_PREFIX_HEADER = "FinalCountdown/FinalCountdown-Prefix.pch";
+				INFOPLIST_FILE = "FinalCountdown/FinalCountdown-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FinalCountdown;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -327,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09AC9D7218DA443600FC6BEB /* Build configuration list for PBXProject "Countdown" */ = {
+		09AC9D7218DA443600FC6BEB /* Build configuration list for PBXProject "FinalCountdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AC9DAA18DA443600FC6BEB /* Debug */,
@@ -336,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09AC9DAC18DA443600FC6BEB /* Build configuration list for PBXNativeTarget "Countdown" */ = {
+		09AC9DAC18DA443600FC6BEB /* Build configuration list for PBXNativeTarget "FinalCountdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09AC9DAD18DA443600FC6BEB /* Debug */,

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "09AC9D7618DA443600FC6BEB"
                BuildableName = "Countdown.app"
-               BlueprintName = "Countdown"
-               ReferencedContainer = "container:Countdown.xcodeproj">
+               BlueprintName = "FinalCountdown"
+               ReferencedContainer = "container:FinalCountdown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "09AC9D9A18DA443600FC6BEB"
                BuildableName = "CountdownTests.xctest"
                BlueprintName = "CountdownTests"
-               ReferencedContainer = "container:Countdown.xcodeproj">
+               ReferencedContainer = "container:FinalCountdown.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "09AC9D7618DA443600FC6BEB"
             BuildableName = "Countdown.app"
-            BlueprintName = "Countdown"
-            ReferencedContainer = "container:Countdown.xcodeproj">
+            BlueprintName = "FinalCountdown"
+            ReferencedContainer = "container:FinalCountdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "09AC9D7618DA443600FC6BEB"
             BuildableName = "Countdown.app"
-            BlueprintName = "Countdown"
-            ReferencedContainer = "container:Countdown.xcodeproj">
+            BlueprintName = "FinalCountdown"
+            ReferencedContainer = "container:FinalCountdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "09AC9D7618DA443600FC6BEB"
             BuildableName = "Countdown.app"
-            BlueprintName = "Countdown"
-            ReferencedContainer = "container:Countdown.xcodeproj">
+            BlueprintName = "FinalCountdown"
+            ReferencedContainer = "container:FinalCountdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
